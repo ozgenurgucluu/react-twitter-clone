@@ -25,7 +25,7 @@ const sidebarLinks = [
 
 const Sidebar = () => {
   return (
-    <div className="h-[800px]  bg-white  w-[284px] fixed text-blackflex   gap-6 px-5 py-2 cursor-pointer">
+    <div className="h-full  bg-white  w-[284px] fixed text-blackflex   gap-6 px-5 py-2 cursor-pointer">
       <div>
         <Link
           className="flex hover:bg-gray-200 hover:rounded-3xl gap-3 text-center mx-auto items-center h-[50.5px]  text-xl"
